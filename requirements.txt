@@ -4,5 +4,4 @@ numpy
 jsonschema
 jsonschema-specifications
 requests
-re
 openpyxl
