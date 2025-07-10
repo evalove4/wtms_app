@@ -3,7 +3,6 @@ pandas
 numpy
 jsonschema
 jsonschema-specifications
-io
 requests
 re
 openpyxl
