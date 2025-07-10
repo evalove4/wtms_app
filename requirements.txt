@@ -1,7 +1,8 @@
 plotly
 pandas
 numpy
-json
+jsonschema
+jsonschema-specifications
 io
 requests
 re
