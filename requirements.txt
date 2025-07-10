@@ -1,1 +1,8 @@
 plotly
+pandas
+numpy
+json
+io
+requests
+re
+openpyxl
