@@ -483,7 +483,7 @@ def create_correlation_heatmap(df, sewage_params, weather_params):
     return fig
 
 def main():
-    st.title("🌊 하수처리장 측정데이터 + 기상데이터 통합 분석 시스템")
+    st.title("🌊 수질TMS 측정데이터 + 기상데이터 통합 분석 시스템")
     st.markdown("---")
     
     # plant_name 기본값을 미리 선언
@@ -595,7 +595,7 @@ def main():
         with col2:
             st.metric("측정항목", f"{len(sewage_params)}개")
         with col3:
-            st.metric("기상요소", f"{len(weather_params)}개")
+            st.metric("처리장명칭", plant_name)
         with col4:
             st.metric("기상관측소", data['station_name'])
         with col5:
